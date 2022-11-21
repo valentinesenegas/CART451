@@ -1,0 +1,13 @@
+* {
+    font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.img-width-80p {
+    width: 80%;
+}
+
+div.content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

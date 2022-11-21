@@ -9,7 +9,9 @@ let fs = require('fs');
 
 let tfIDF = new TFIDF();
 
-let arrayOfWords = new Array;
+let countOfWordsPerLength = new Array;
+
+for (i=0; i<20; i++)
 
 loadSamples();
 

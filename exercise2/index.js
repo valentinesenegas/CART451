@@ -14,7 +14,7 @@ resetCountOfTokensPerLength();
 processTokensAndUpdateCountOfTokens();
 writeCountOfTokensPerLengthToConsole();
 
-/* Functions for our program. */
+// Functions for our program
 function loadTexts() {
     let filenames = ['thecouncilheldbytherats.txt',
                     'thedogandcat.txt', 
@@ -54,7 +54,7 @@ function processTokensAndUpdateCountOfTokens() {
     tokenizedTexts.forEach(function(token) {
         let tokenLength = token.length;
 
-        // Update the count of tokens that have the same length,
+        // Update the count of tokens that have the same length
         countOfTokensPerLength[tokenLength]++;
     });
 }
