@@ -14,7 +14,7 @@ resetCountOfTokensPerLength();
 processTokensAndUpdateCountOfTokens();
 writeCountOfTokensPerLengthToConsole();
 
-// Functions for our program
+// Functions for the program
 function loadTexts() {
     let filenames = ['thecouncilheldbytherats.txt',
                     'thedogandcat.txt', 

@@ -1,3 +1,6 @@
+html {
+    background-color: #FAF7F0;
+}
 * {
     font-family: 'IBM Plex Sans JP', sans-serif;
 }
@@ -11,3 +14,23 @@ div.content {
     margin-left: auto;
     margin-right: auto;
 }
+
+div.intro {
+    background-color: #BCCEF8;
+    padding: 12px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+mark {
+  background-color: #98A8F8;
+  color: white;
+  padding: 0 5px;
+}
+
+::selection {
+    color: black;
+    background: #CDFCF6;
+  }
