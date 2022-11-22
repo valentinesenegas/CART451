@@ -22,7 +22,7 @@
     The Grasshopper and the Ant, The Raven and the Fox, The wo Bulls and the Frog, The Wolf Accusing The Fox Before The Monkey.</p>
     </div>
 
-
+    <h2>Number of characters in words</h2>
     <p>I created a graph to represent the Repartition of the Length of Tokens. In other words, it shows the <mark><strong>lengths of the words</strong></mark> (number of letters in each word) in the files.</p>
 
     <img class="img-width-80p" src="Repartition of the Length of Tokens.png" alt="Repartition of the Length of Tokens">
@@ -31,7 +31,24 @@
 
     For instance, 328 words have 3 letters. 2 words have 12 letters.
 
-    <p>I sent the results from the console directly to a csv file with this: <mark><strong>node index.js > result.csv</strong></mark></p>
+    <!-- <p>I sent the results from the console directly to a csv file with this: <mark><strong>node index.js > result.csv</strong></mark></p> -->
+
+    <h2>Number of characters in bigrams</h2>
+
+    <img class="img-width-80p" src="Count of Tokens for Bigrams.png" alt="Count of Tokens for Bigrams">
+
+    <p>With the use of NGrams, I was able to know more about bigrams and trigrams.</p>
+    <p>We see that there are no bigrams with less than 3 characters, which is normal.
+      We see that the majority of bigrams are made out of 7 to 11 characters. This seems to correlate with the number of letters per word, and a bigram is made of two words.</p>
+
+
+    <h2>Number of characters in Trigrams</h2>
+
+    <img class="img-width-80p" src="Count of Tokens for Trigrams.png" alt="Count of Tokens for Trigrams">
+  
+    <p>We see that there are no bigrams with less than 7 characters, which makes sense. To make a trigram, 3 words are needed, and it makes sense that these words contain at least 2 characters.
+        We see that the majority of trigrams are made out of 7 to 18 characters. This seems to correlate with the number of letters per word, and a trigram is made of 3 words.</p>
+  
 
   </div>
 
